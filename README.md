@@ -7,12 +7,6 @@ This extension adds `rel="noopener noreferrer" to any links which are external l
 
 ## Installation
 
-1) Get the extension by using composer `composer require georgringer/noopener` 
-2) Install the extension.
-3) Done
-
-## Useage
-
 Add the plugin to your `book.json`:
 
 ```
