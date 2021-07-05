@@ -1,6 +1,17 @@
 # Gitbook Plugin `noopener`
 
-This extension adds `rel="noopener noreferrer"` to any links which are external links or defined with target `_blank`.
+This extension add `rel="noopener noreferrer"` for all anchor tag link in content when target not equal with `it self domain`.
+
+```
+Current hostname:
+console.log(window.location.hostname) // google.com
+
+Gitbook content got some link like:
+<a href="youtube.com">Link to Youtube</a> // target hostname is not equal with current hostname
+
+Plugin will convert the anchor tag attribute like:
+<a href="youtube.com" rel="noopener noreferrer">>Link to Youtube</a>
+```
 
 This improves the security of the site:
 
