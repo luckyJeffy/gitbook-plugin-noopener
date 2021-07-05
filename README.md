@@ -1,4 +1,4 @@
-# Gitbook Extension `noopener`
+# Gitbook Plugin `noopener`
 
 This extension adds `rel="noopener noreferrer" to any links which are external links or defined with target '_blank'. This improves the security of the site:
 
