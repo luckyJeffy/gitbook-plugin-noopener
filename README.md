@@ -10,7 +10,7 @@ Gitbook content got some link like:
 <a href="youtube.com">Link to Youtube</a> // target hostname is not equal with current hostname
 
 Plugin will convert the anchor tag attribute like:
-<a href="youtube.com" rel="noopener noreferrer">>Link to Youtube</a>
+<a href="youtube.com" rel="noopener noreferrer">Link to Youtube</a>
 ```
 
 This improves the security of the site:
