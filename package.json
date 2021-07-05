@@ -1,0 +1,38 @@
+{
+  "name": "gitbook-plugin-noopener",
+  "version": "0.0.1",
+  "description": "Add rel=\"noopener noreferrer\" for all anchor tag link in content when target not equal with it self domain.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyJeffy/gitbook-plugin-noopener.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "noopener"
+  ],
+  "author": "Jeffy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckyJeffy/gitbook-plugin-noopener/issues"
+  },
+  "homepage": "https://github.com/luckyJeffy/gitbook-plugin-noopener#readme",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "noopener": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable page content filter that add rel='noopener' attribute for anchor tag"
+      },
+      "noreferrer": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable page content filter that add rel='noreferrer' attribute for anchor tag"
+      }
+    }
+  }
+}
